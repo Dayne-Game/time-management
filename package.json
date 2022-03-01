@@ -1,0 +1,27 @@
+{
+    "name": "budgetmanagement",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "server": "nodemon server/server"
+    },
+    "author": "Dayne Game",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "chart.js": "^3.7.1",
+        "colors": "^1.4.0",
+        "dotenv": "^16.0.0",
+        "express": "^4.17.2",
+        "express-async-handler": "^1.2.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.2.1",
+        "morgan": "^1.10.0",
+        "multer": "^1.4.4"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
